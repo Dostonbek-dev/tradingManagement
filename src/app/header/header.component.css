@@ -1,0 +1,65 @@
+/* header*/
+.body{
+  background-color: #EEF3FF;
+}
+.row{
+  margin-top: 0!important;
+  padding: 0;
+  width: 100%;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+.row .logo h1{
+  font-size: 45px;
+  color: blue;
+  font-weight: bold;
+  margin-left: 42px;
+  cursor: pointer;
+
+}
+.menu ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: 30px 8px;
+  cursor: pointer;
+}
+.menu ul li a{
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(51, 51, 51, 1);
+}
+.end-menu{
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.end-menu img:nth-child(1){
+  margin-top: 32px;
+}
+.end-menu img{
+  margin: 30px 8px;
+  cursor: pointer;
+}
+.end-menu button{
+  margin-top: 19px;
+  margin-right: 42px;
+  width: 143px;
+  height: 54px;
+  border-radius: 15px;
+  background-color: rgba(52, 109, 255, 1);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+   color: rgba(255, 255, 255, 1);
+  border: none;
+}
+.end-menu button i {
+  color: white;
+}
+

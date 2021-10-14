@@ -1,0 +1,44 @@
+.footer{
+  width: 100%;
+  height: 556px;
+  background-color: #1E2833;
+}
+.footer .footer-header button{
+  background: linear-gradient(135deg, #346DFF 0%, #96BAFF 100%);
+  border-radius: 8px;
+  width: 175px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+.footer .footer-header  p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 29px;
+  /* identical to box height */
+  letter-spacing: -0.3px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-header div{
+  margin: 52px 186px;
+}
+.footer-header .imgLogo{
+  margin:66px 0 0 185px;
+}
+.hr{
+  height: 1px;
+  width: 1172px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  margin-left:168px ;
+  margin-top: -30px;
+}
