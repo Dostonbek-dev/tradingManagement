@@ -1,0 +1,142 @@
+.container {
+
+  position: absolute;
+  width: 1440px;
+  height: 786px;
+  left: 0;
+  top: 0;
+  background: #FFFFFF;
+  margin-top: 54rem;
+  margin-left: -5px
+}
+
+.header-text p:nth-child(1) {
+  width: 64px;
+  height: 48px;
+  margin-top: 64px;
+  margin-left: 880px;
+  font-family: Poppins, system-ui;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.header-text p:nth-child(2) {
+  font-weight: 400;
+  line-height: 30px;
+  align-items: center;
+  margin-left: 760px;
+  font-size: 20px;
+  margin-top: -20px;
+  font-family: Poppins,cursive;
+}
+
+/*Card*/
+.card {
+  height: 478px;
+  width: 327px;
+  box-shadow: 0px 0px 24px rgba(85, 192, 255, 0.12);
+  border-radius: 5px;
+  margin-left: 245px;
+}
+
+.card-photo {
+  width: 325px;
+  height: 200px;
+  border-radius: 5px 5px 0 0
+}
+
+.card-header {
+  font-size: 13px;
+  color: #bec1c1;
+  margin-left: 36px
+}
+
+.h3 {
+  margin-left: 36px !important;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #252B42;
+  font-family: Montserrat;
+  letter-spacing: .1px;
+}
+
+.card-paragraph {
+  color: #858585;
+  margin-left: 36px;
+  font-family: Montserrat;
+}
+
+.formgrid h6:nth-child(1) {
+  margin-top: 0;
+  color: #737373;
+  font-size: 13px;
+  font-family: Montserrat;
+  margin-left: 40px
+}
+
+.formgrid h6:nth-child(2) {
+  margin-top: 0;
+  color: #737373;
+  font-size: 13px;
+  font-family: Montserrat;
+  margin-left: 30px;
+}
+
+.formgrid h6:nth-child(3) {
+  margin-top: 0;
+  color: #737373;
+  font-size: 13px;
+  font-family: Montserrat;
+  margin-left: 20px;
+}
+
+.details-text {
+  position: static;
+  width: 92px;
+  height: 24px;
+  margin-left: calc(50% - 92px / 2 - 81.5px);
+  top: 222px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: .2px;
+  color: #23A6F0;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+/*Radio Button*/
+.radioButton:nth-child(1) {
+  margin-left: 923px;
+  position: absolute;
+}
+
+.radioButton:nth-child(2) {
+  margin-left: 944px;
+  position: absolute;
+}
+
+.radioButton:nth-child(3) {
+  margin-left: 965px;
+  position: absolute;
+}
+
+.radioButton:nth-child(4) {
+  margin-left: 986px;
+  position: absolute;
+}
+
+.radioButton {
+  background-color: #346DFF;
+  cursor: pointer;
+  border: #346DFF;
+  background-size: cover;
+  height: 15px;
+  width: 15px
+}
