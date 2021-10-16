@@ -1,1 +1,41 @@
-<p>customer-openion works!</p>
+<p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="6" [numScroll]="1" [circular]="true"
+            [autoplayInterval]="10000" [responsiveOptions]="responsiveOptions">
+  <ng-template pTemplate="header">
+    <h5 class="carousel-header-text">MIjozlarimiz Fikri</h5>
+    <p class="carousel-sub-header-text">Bizning mijozlarimiz fikri bilan tanishib chiqing!!</p>
+  </ng-template>
+  <ng-template let-product pTemplate="item">
+    <div class="row">
+      <div class="col-3">
+        <img src="assets/cover.png">
+      </div>
+      <div class="col-10">
+        <h2 class="userName">Regina Miles</h2>
+        <span class="subUserTest">Disigner</span>
+        <ul>
+          <li>
+            <img src="assets/star.png" alt="">
+          </li>
+          <li>
+            <img src="assets/star.png" alt="">
+          </li>
+          <li>
+            <img src="assets/star.png" alt="">
+          </li>
+          <li>
+            <img src="assets/star.png" alt="">
+          </li>
+          <li>
+            <img src="assets/noColorStar.png" alt="">
+          </li>
+        </ul>
+        <p class="userText">This proved to be impossible using the traditional
+          concepts of space and time. Einstein developed a
+          new view of time first and then space. This proved
+          to be impossible using the traditional concepts of
+          space and time. Einstein developed a new view
+          of time first and then space.</p>
+      </div>
+    </div>
+  </ng-template>
+</p-carousel>

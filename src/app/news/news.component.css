@@ -171,3 +171,14 @@
   color: #000000;
 }
 
+::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button{
+  color:#346DFF;
+  border-radius:50% !important;
+  height:18px;
+  width:18px;
+}
+.product-item{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(85, 192, 255, 0.12);
+  border-radius: 5px;
+}
