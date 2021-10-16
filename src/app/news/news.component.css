@@ -1,6 +1,4 @@
 .container {
-
-  position: absolute;
   width: 1440px;
   height: 786px;
   left: 0;
@@ -29,7 +27,7 @@
   margin-left: 760px;
   font-size: 20px;
   margin-top: -20px;
-  font-family: Poppins,cursive;
+  font-family: Poppins, cursive;
 }
 
 /*Card*/
@@ -140,3 +138,36 @@
   height: 15px;
   width: 15px
 }
+
+.product-item .product-item-content {
+  border: 1px solid var(--surface-d);
+  border-radius: 3px;
+  margin: .3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.product-item .product-image {
+  width: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+}
+
+.carousel-header-text {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #333333;
+}
+.carousel-sub-header-text{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+

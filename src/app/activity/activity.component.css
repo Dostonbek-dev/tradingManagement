@@ -1,0 +1,32 @@
+.header{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #333333;
+}
+.sub-header{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #333333;
+}
+.row{
+  background-color: #EEF3FF;
+}
+.main-img{
+  width: 670px;
+  height: 453px;
+}
+.user-icon{
+  width: 50px;
+  height: 37px;
+}
+.main-box{
+  width: 230px;
+  height: 210px;
+  background-color: #FFFFFF;
+}

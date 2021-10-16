@@ -10,6 +10,10 @@ import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import { NewsComponent } from './news/news.component';
 import {ButtonModule} from "primeng/button";
 import {CardModule} from "primeng/card";
+import {CarouselModule} from "primeng/carousel";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
+import { ActivityComponent } from './activity/activity.component';
+import { CustomerOpenionComponent } from './customer-openion/customer-openion.component';
 
 
 @NgModule({
@@ -18,15 +22,19 @@ import {CardModule} from "primeng/card";
     HeaderComponent,
     FooterComponent,
     MainScreenComponent,
-    NewsComponent
+    NewsComponent,
+    ActivityComponent,
+    CustomerOpenionComponent
   ],
-  imports: [
-    BrowserModule,
-    FontAwesomeModule,
-    BrowserAnimationsModule,
-    ButtonModule,
-    CardModule,
-  ],
+    imports: [
+        BrowserModule,
+        FontAwesomeModule,
+        BrowserAnimationsModule,
+        ButtonModule,
+        CardModule,
+        CarouselModule,
+      HttpClientModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
