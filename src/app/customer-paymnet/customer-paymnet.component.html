@@ -1,0 +1,55 @@
+<div class="customer-payment mt-8">
+  <p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="8" [numScroll]="1" [circular]="true"
+              [autoplayInterval]="8000" [responsiveOptions]="responsiveOptions">
+    <ng-template pTemplate="header">
+      <div class="payment-information">
+        <h1>
+          Mijozlar daromadi
+        </h1>
+        <p>
+          quyda bizning mijozlar daromadi bilan tanishishingiz mumkin
+        </p>
+      </div>
+    </ng-template>
+    <ng-template let-product pTemplate="item">
+    <div class="payment-ifo">
+   <div class="info-diagram mt-3">
+     <img src="assets/bar-chart-2.png" alt="">
+   </div>
+      <div class="info-icon">
+       <div class="col-12">
+         <i class="pi pi-phone"><p>Phone:</p><span> **0743</span></i>
+         <i class="pi pi-dollar ml-2"><p>Deposit:</p><span> $ 10 000</span></i>
+       </div>
+        <div class="col-12 second-icon-box">
+          <i class="pi pi-map-marker"><p>Address:</p><span> Tashkent</span></i>
+          <i class="pi pi-arrow-up ml-2"><p>Benefit:</p><span> $2000</span></i>
+        </div>
+      </div>
+    </div>
+    </ng-template>
+  </p-carousel>
+  <p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="8" [numScroll]="1" [circular]="true"
+     class="second-carusel"          [responsiveOptions]="responsiveOptions">
+    <ng-template let-product pTemplate="item">
+      <div class="payment-ifo">
+        <div class="info-diagram mt-3">
+          <img src="assets/bar-chart-2.png" alt="">
+        </div>
+        <div class="info-icon">
+          <div class="col-12">
+            <i class="pi pi-phone"><p>Phone:</p><span> **0743</span></i>
+            <i class="pi pi-dollar ml-2"><p>Deposit:</p><span> $ 10 000</span></i>
+          </div>
+          <div class="col-12 second-icon-box">
+            <i class="pi pi-map-marker"><p>Address:</p><span> Tashkent</span></i>
+            <i class="pi pi-arrow-up ml-2"><p>Benefit:</p><span> $2000</span></i>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </p-carousel>
+
+</div>
+
+

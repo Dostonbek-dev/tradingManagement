@@ -1,0 +1,95 @@
+.customer-payment {
+  position: relative;
+  width: 1519px;
+  height: 660px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, rgba(0, 71, 255, 0) 0%,
+  rgba(0, 18, 64, 0.54) 100%),
+  linear-gradient(0deg, rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.2)),
+  url("../../assets/section.png");
+}
+.payment-information h1{
+  position: absolute;
+  width: 301px;
+  height: 48px;
+  left: 570px;
+  top: 64px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.payment-information p{
+  position: absolute;
+  width: 544px;
+  height: 30px;
+  left: 448px;
+  top: 124px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* White */
+
+  color: #FFFFFF;
+}
+.payment-ifo{
+  position: relative;
+  width: 507px;
+  height: 144px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(85, 192, 255, 0.12);
+  border-radius: 15px;
+  margin: 190px 50px;
+}
+.pi {
+  display: block;
+}
+.info-diagram{
+  width: 100px;
+  height: 100px;
+  background: #EEF3FF;
+  border-radius: 50%;
+ position: absolute;
+  top: 6px;
+  left: 6px;
+}
+.info-diagram img{
+  margin-top: 29px;
+  margin-left: 31px;
+}
+.info-icon {
+margin-left: 123px;
+}
+.info-icon i{
+  color: rgba(52, 109, 255, 1) ;
+  display: inline-block;
+  margin-top:20px;
+}
+.info-icon i p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  display: inline-block;
+  color: #333333;
+  margin-left: 6px;
+}
+.second-icon-box{
+  margin-top: -39px;
+}
+.second-carusel{
+  margin-top: -923px;
+}
+::ng-deep #pr_id_4 .p-carousel-item{
+  height: 400px;
+}
