@@ -16,6 +16,9 @@ import { ActivityComponent } from './activity/activity.component';
 import { CustomerOpenionComponent } from './customer-openion/customer-openion.component';
 import { CustomerPaymnetComponent } from './customer-paymnet/customer-paymnet.component';
 import { OurTeamComponent } from './our-team/our-team.component';
+import { VideoInfoComponent } from './video-info/video-info.component';
+import { TariffCalculatorComponent } from './tariff-calculator/tariff-calculator.component';
+import {DialogModule} from "primeng/dialog";
 
 
 @NgModule({
@@ -28,17 +31,20 @@ import { OurTeamComponent } from './our-team/our-team.component';
     ActivityComponent,
     CustomerOpenionComponent,
     CustomerPaymnetComponent,
-    OurTeamComponent
+    OurTeamComponent,
+    VideoInfoComponent,
+    TariffCalculatorComponent
   ],
-    imports: [
-        BrowserModule,
-        FontAwesomeModule,
-        BrowserAnimationsModule,
-        ButtonModule,
-        CardModule,
-        CarouselModule,
-      HttpClientModule
-    ],
+  imports: [
+    BrowserModule,
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    ButtonModule,
+    CardModule,
+    CarouselModule,
+    HttpClientModule,
+    DialogModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

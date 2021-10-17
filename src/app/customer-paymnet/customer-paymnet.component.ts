@@ -11,6 +11,8 @@ export class CustomerPaymnetComponent implements OnInit {
   //@ts-ignore
   products: Product[];
   responsiveOptions: any;
+  //@ts-ignore
+  display: boolean;
 
   constructor(private productService: ProductService) {
     this.responsiveOptions = [
@@ -39,4 +41,7 @@ export class CustomerPaymnetComponent implements OnInit {
     });
   }
 
+  openCalculartor() {
+    this.display = !this.display
+  }
 }

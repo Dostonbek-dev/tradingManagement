@@ -97,3 +97,45 @@ margin-left: 123px;
 ::ng-deep #pr_id_3 .p-carousel-item {
   height: 350px;
 }
+.calc_ctn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 30px;
+  position: absolute;
+  width: 226.14px;
+  height: 58px;
+  left: 607px;
+  top: 538px;
+  background: #346DFF;
+  border-radius: 37px;
+  margin-top: 12px;
+}
+.calc_ctn span{
+  position: static;
+  left: 13.27%;
+  right: 21.73%;
+  top: 25.86%;
+  bottom: 25.86%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+}
+.calc_ctn i{
+  right: 21.73%;
+  top: 25.86%;
+  bottom: 25.86%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin-left: 4px;
+
+}

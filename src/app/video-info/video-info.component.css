@@ -1,0 +1,10 @@
+.video  {
+  width: 100%;
+  background-image: url("../../assets/media bg-cover.png");
+  position:relative;
+}
+.play{
+  position: absolute;
+  right: 50%;
+  top: 48%;
+}
