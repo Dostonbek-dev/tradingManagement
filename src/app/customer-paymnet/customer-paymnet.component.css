@@ -92,4 +92,8 @@ margin-left: 123px;
 }
 ::ng-deep #pr_id_4 .p-carousel-item{
   height: 400px;
+  margin-top: -167px;
+}
+::ng-deep #pr_id_3 .p-carousel-item {
+  height: 350px;
 }

@@ -15,6 +15,7 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import { ActivityComponent } from './activity/activity.component';
 import { CustomerOpenionComponent } from './customer-openion/customer-openion.component';
 import { CustomerPaymnetComponent } from './customer-paymnet/customer-paymnet.component';
+import { OurTeamComponent } from './our-team/our-team.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { CustomerPaymnetComponent } from './customer-paymnet/customer-paymnet.co
     NewsComponent,
     ActivityComponent,
     CustomerOpenionComponent,
-    CustomerPaymnetComponent
+    CustomerPaymnetComponent,
+    OurTeamComponent
   ],
     imports: [
         BrowserModule,

@@ -29,8 +29,8 @@
     </div>
     </ng-template>
   </p-carousel>
-  <p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="8" [numScroll]="1" [circular]="true"
-     class="second-carusel"          [responsiveOptions]="responsiveOptions">
+  <p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="6" [numScroll]="1" [circular]="true"
+     class="second-carusel"    [autoplayInterval]="5000"         [responsiveOptions]="responsiveOptions">
     <ng-template let-product pTemplate="item">
       <div class="payment-ifo">
         <div class="info-diagram mt-3">
@@ -51,5 +51,6 @@
   </p-carousel>
 
 </div>
+<app-our-team></app-our-team>
 
 
