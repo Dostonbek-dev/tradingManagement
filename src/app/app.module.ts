@@ -20,6 +20,7 @@ import { VideoInfoComponent } from './video-info/video-info.component';
 import { TariffCalculatorComponent } from './tariff-calculator/tariff-calculator.component';
 import {DialogModule} from "primeng/dialog";
 import {AccordionModule} from "primeng/accordion";
+import { GoogleMapComponent } from './google-map/google-map.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import {AccordionModule} from "primeng/accordion";
     CustomerPaymnetComponent,
     OurTeamComponent,
     VideoInfoComponent,
-    TariffCalculatorComponent
+    TariffCalculatorComponent,
+    GoogleMapComponent
   ],
   imports: [
     BrowserModule,
