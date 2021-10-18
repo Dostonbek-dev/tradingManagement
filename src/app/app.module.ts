@@ -21,6 +21,9 @@ import { TariffCalculatorComponent } from './tariff-calculator/tariff-calculator
 import {DialogModule} from "primeng/dialog";
 import {AccordionModule} from "primeng/accordion";
 import { GoogleMapComponent } from './google-map/google-map.component';
+import { CalculatorComponent } from './calculator/calculator.component';
+import {InputTextModule} from "primeng/inputtext";
+import {RadioButtonModule} from "primeng/radiobutton";
 
 
 @NgModule({
@@ -36,7 +39,8 @@ import { GoogleMapComponent } from './google-map/google-map.component';
     OurTeamComponent,
     VideoInfoComponent,
     TariffCalculatorComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +51,9 @@ import { GoogleMapComponent } from './google-map/google-map.component';
     CarouselModule,
     HttpClientModule,
     DialogModule,
-    AccordionModule
+    AccordionModule,
+    InputTextModule,
+    RadioButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

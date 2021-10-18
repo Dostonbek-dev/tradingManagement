@@ -13,6 +13,9 @@ export class CustomerPaymnetComponent implements OnInit {
   responsiveOptions: any;
   //@ts-ignore
   display: boolean;
+  //@ts-ignore
+  displayModal: boolean;
+
 
   constructor(private productService: ProductService) {
     this.responsiveOptions = [
@@ -43,5 +46,9 @@ export class CustomerPaymnetComponent implements OnInit {
 
   openCalculartor() {
     this.display = !this.display
+  }
+
+  cencelModal() {
+    this.display=!this.display
   }
 }
