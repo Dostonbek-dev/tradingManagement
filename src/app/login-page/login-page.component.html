@@ -6,9 +6,9 @@
     <h1>Tizmiga kirish</h1>
     <div class="form mt-8">
       <label>Telefon Raqamingizni kiriting</label>
-     <div style="margin-top: 12px;margin-bottom: 12px"> <input type="text" pInputText placeholder="+998 (94) 777 - 87 - 97 "></div>
+     <div style="margin-top: 12px;margin-bottom: 12px"> <input type="text" name="phone" [(ngModel)]="phone" pInputText placeholder="+998 (94) 777 - 87 - 97 "></div>
       <label style="margin-top: 12px">Parolingizni kiriting</label>
-      <div style="margin-top: 12px"> <input type="password  " pInputText placeholder="*********"></div>
+      <div style="margin-top: 12px"> <input type="password  " pInputText name="password" [(ngModel)]="password" placeholder="*********"></div>
 
     </div>
     <div class="button">

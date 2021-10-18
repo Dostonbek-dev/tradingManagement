@@ -6,8 +6,8 @@
         <h1>
           Mijozlar daromadi
         </h1>
-        <p>
-          quyda bizning mijozlar daromadi bilan tanishishingiz mumkin
+        <p class="quyida">
+          Quyda bizning mijozlar daromadi bilan tanishishingiz mumkin
         </p>
       </div>
     </ng-template>
@@ -66,9 +66,9 @@
 </span>
        <h4>Muddati</h4>
           <div class="radio">
-          <p-radioButton name="groupname" value="val1"  ></p-radioButton><span>6 oy</span>
-          <p-radioButton name="groupname" value="val2" >12 oy</p-radioButton><span>6 oy</span>
-          <p-radioButton name="groupname" value="val2" >12 oy</p-radioButton><span>6 oy</span>
+          <p-radioButton name="val1" [(ngModel)]="val1" value="val1"  ></p-radioButton><span>6 oy</span>
+          <p-radioButton name="val2" [(ngModel)]="val2" value="val2" >12 oy</p-radioButton><span>12 oy</span>
+          <p-radioButton name="val3" [(ngModel)]="val3" value="val3" >12 oy</p-radioButton><span>24 oy</span>
           </div>
           <div class="result-info" style="margin-top: 32px">
           <h4 class=" mt-3" >Natija: </h4><span class=""> $ 2300</span>

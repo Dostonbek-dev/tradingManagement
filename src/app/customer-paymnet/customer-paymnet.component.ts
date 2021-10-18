@@ -15,6 +15,9 @@ export class CustomerPaymnetComponent implements OnInit {
   display: boolean;
   //@ts-ignore
   displayModal: boolean;
+  val1: any;
+  val2: any;
+  val3: any;
 
 
   constructor(private productService: ProductService) {

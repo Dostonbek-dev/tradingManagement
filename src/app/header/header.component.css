@@ -28,6 +28,8 @@
   cursor: pointer;
 }
 .menu ul li a{
+  font-family: Poppins, serif;
+  font-weight: bold;
   font-size: 24px;
   line-height: 36px;
   color: rgba(51, 51, 51, 1);
@@ -47,13 +49,14 @@
   cursor: pointer;
 }
 .end-menu button{
+  font-family: Poppins, serif;
+  font-weight: bold;
   margin-top: 19px;
   margin-right: 38px;
   width: 143px;
   height: 54px;
   border-radius: 15px;
   background-color: rgba(52, 109, 255, 1);
-  font-weight: 400;
   font-size: 22px;
   line-height: 36px;
    color: rgba(255, 255, 255, 1);

@@ -15,7 +15,6 @@
   width: 301px;
   height: 48px;
   left: 570px;
-  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -30,8 +29,6 @@
   height: 30px;
   left: 448px;
   top: 42px;
-
-  font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -171,7 +168,6 @@
 }
 
 .header-dialog {
-  font-family: Poppins;
   font-style: normal;
   font-size: 18px;
   letter-spacing: 0.2px;
@@ -187,8 +183,6 @@
 }
 
 .radio span {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   color: #737373;
   margin: 18px 12px;
@@ -241,5 +235,10 @@
   margin-top: 8px;
   color: rgba(141, 52, 255, 1);
   cursor: pointer;
+}
+.quyida{
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 48px;
 }
 

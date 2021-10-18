@@ -154,7 +154,6 @@
 
 .carousel-header-text {
   text-align: center;
-  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -162,9 +161,8 @@
   color: #333333;
 }
 .carousel-sub-header-text{
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Poppins, serif;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   text-align: center;

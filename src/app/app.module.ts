@@ -21,12 +21,12 @@ import {TariffCalculatorComponent} from './tariff-calculator/tariff-calculator.c
 import {DialogModule} from "primeng/dialog";
 import {AccordionModule} from "primeng/accordion";
 import {GoogleMapComponent} from './google-map/google-map.component';
-import {CalculatorComponent} from './calculator/calculator.component';
 import {InputTextModule} from "primeng/inputtext";
 import {RadioButtonModule} from "primeng/radiobutton";
 import {LoginPageComponent} from './login-page/login-page.component';
 import {RouterModule, Routes} from "@angular/router";
 import { FullAppComponent } from './full-app/full-app.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 const routes: Routes = [
   {
@@ -53,13 +53,13 @@ const routes: Routes = [
     VideoInfoComponent,
     TariffCalculatorComponent,
     GoogleMapComponent,
-    CalculatorComponent,
     LoginPageComponent,
     FullAppComponent
   ],
   imports: [
     BrowserModule,
     FontAwesomeModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(routes),
     BrowserAnimationsModule,
     ButtonModule,
@@ -69,7 +69,8 @@ const routes: Routes = [
     DialogModule,
     AccordionModule,
     InputTextModule,
-    RadioButtonModule
+    RadioButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
