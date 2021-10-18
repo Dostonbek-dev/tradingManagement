@@ -19,6 +19,7 @@ import { OurTeamComponent } from './our-team/our-team.component';
 import { VideoInfoComponent } from './video-info/video-info.component';
 import { TariffCalculatorComponent } from './tariff-calculator/tariff-calculator.component';
 import {DialogModule} from "primeng/dialog";
+import {AccordionModule} from "primeng/accordion";
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import {DialogModule} from "primeng/dialog";
     CardModule,
     CarouselModule,
     HttpClientModule,
-    DialogModule
+    DialogModule,
+    AccordionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
