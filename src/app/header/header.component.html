@@ -1,12 +1,12 @@
 <div class="body">
   <div class="row">
     <div class="logo">
-      <h1> BlueSky</h1>
+      <h1 routerLink="home" style="cursor: pointer"> BlueSky</h1>
     </div>
     <div class="menu">
       <ul>
         <li>
-          <a>Bosh sahifa</a>
+          <a routerLink="">Bosh sahifa</a>
         </li>
         <li>
           <a>Yangiliklar</a>
@@ -28,8 +28,9 @@
     <div class="end-menu">
       <img src="./assets/Vector.svg" >
       <img src="./assets/Btn-Language.svg">
-      <button>Kirish</button>
+      <button (click)="login()" routerLink="login"><i class="pi pi-sign-in"></i>Kirish</button>
     </div>
   </div>
 </div>
+
 
