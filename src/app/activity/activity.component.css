@@ -29,4 +29,16 @@
   width: 230px;
   height: 210px;
   background-color: #FFFFFF;
+  padding: 38px;
+}
+.grid{
+  margin-top: 12px;
+}
+.box-1{
+  margin-left: 50px;
+  margin-top: -2px;
+}
+.box-2{
+  margin-left: 50px;
+  margin-top: 34px;
 }
