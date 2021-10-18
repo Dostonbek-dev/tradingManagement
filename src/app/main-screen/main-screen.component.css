@@ -38,20 +38,25 @@
 }
 
 .row1 button {
-  width: 200px;
-  height: 60px;
+  width: 180px;
+  height: 50px;
   background: #346DFF;
   border-radius: 10px;
   color: rgba(255, 255, 255, 1);
   border: none;
   margin-bottom: 65px;
   margin-top: 40px;
+  font-size: 18px;
   display: inline-block;
 }
 
 .row2 {
   display: inline-block;
 }
-.row2 img{
+.pi-chart-line{
+  display: inline-block;
+  color: #fff;
+  margin-right: 14px;
+  font-size: 22px;
 }
 
