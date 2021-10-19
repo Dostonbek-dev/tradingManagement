@@ -1,4 +1,4 @@
-<div class="customer-payment mt-8">
+<div class="customer-payment mt-8 shadow-8">
   <p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="8" [numScroll]="1" [circular]="true"
               [autoplayInterval]="8000" [responsiveOptions]="responsiveOptions">
     <ng-template pTemplate="header">
@@ -52,7 +52,7 @@
   <button class="calc_ctn" (click)="openCalculartor()"><span>Tariflar kalkulatori</span><i
     class="pi pi-chevron-right"></i></button>
 </div>
-<p-dialog header="" [(visible)]="display" [modal]="true" [style]="{width: '65vw'}" [baseZIndex]="10000"
+<p-dialog header="" [(visible)]="display" [modal]="true" [style]="{width: '65vw'}" [baseZIndex]="10000" class="shadow-8"
           [draggable]="false" [resizable]="false">
   <i (click)="cencelModal()" class="pi pi-times"></i>
   <div class="row">
